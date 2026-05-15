@@ -1,0 +1,26 @@
+AAM-V1_Runtime_Telemetry/
+├── README.md                    (полноценный research-style)
+├── LICENSE                      (Apache-2.0)
+├── citation.cff
+├── requirements.txt
+├── CONTRIBUTING.md
+├── SECURITY.md
+├── .gitignore
+├── paper/
+│   └── AAM-V1_Preprint.pdf      (ваш препринт)
+├── src/
+│   ├── participation_ratio.py
+│   ├── recurrence_determinism.py
+│   ├── mobility_metric.py
+│   └── telemetry_runtime.py     (основной модуль)
+├── examples/
+│   ├── synthetic_collapse_demo.ipynb
+│   ├── swarm_lock_demo.ipynb
+│   └── swe_agent_loop_demo.ipynb
+├── docs/
+│   └── architecture.md
+└── assets/
+    └── telemetry_diagram.png             
+	Commit message: feat: initial research-grade setup with full telemetry prototype (v1.0)
+Release создан: v1.0-preprint-runtime-telemetry
+	
